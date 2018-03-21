@@ -1,0 +1,19 @@
+create DATABASE if not exists 'escola';
+use 'escola';
+
+create table PROFESSOR(
+	
+	'prontuario' int(13) not null
+	'nome' varchar (100) ,
+	'email' varchar (100),
+	PRIMARY KEY(prontuario)
+);
+
+create table ALUNO{
+	
+	prontuario int(13)  not null,
+	nome varchar (100) ,
+	email varchar (100),
+	PRIMARY KEY(prontuario)
+	
+};
